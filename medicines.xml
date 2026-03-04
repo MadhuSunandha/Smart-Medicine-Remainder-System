@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<medicines>
+    <medicine>
+        <name>Paracetamol</name>
+        <time>9:30 AM</time>
+    </medicine>
+    <medicine>
+        <name>Vitamin C</name>
+        <time>7:00 PM</time>
+    </medicine>
+</medicines>
