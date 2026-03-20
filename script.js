@@ -1,6 +1,5 @@
 // LOGIN
 function login() {
-    alert("Login clicked"); // Test to confirm button works
 
     let u = document.getElementById("username").value;
     let p = document.getElementById("password").value;
