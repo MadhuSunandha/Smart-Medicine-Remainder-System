@@ -1,37 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Smart Medicine Reminder</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <h1>💊 Smart Medicine Reminder</h1>
+<div class="card">
+    <h2>💊 Smart Medicine Reminder</h2>
 
-        <form id="reminderForm">
-            <label>Medicine Name:</label>
-            <input type="text" id="medicineName" required>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
 
-            <label>Hour (1-12):</label>
-            <input type="number" id="hour" min="1" max="12" required>
+    <button onclick="login()">Login</button>
 
-            <label>Minute:</label>
-            <input type="number" id="minute" min="0" max="59">
+    <p>New user? <a href="register.html">Register</a></p>
+</div>
 
-            <label>AM / PM:</label>
-            <select id="period">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-            </select>
-
-            <button type="submit">Add Reminder</button>
-        </form>
-
-        <h2>Your Reminders</h2>
-        <div id="reminderList"></div>
-    </div>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

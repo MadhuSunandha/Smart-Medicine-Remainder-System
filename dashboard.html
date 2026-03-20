@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+    <span onclick="toggleMenu()">☰</span>
+    <h2>Dashboard</h2>
+    <button onclick="logout()">Logout</button>
+</div>
+
+<div id="menu" class="sidebar">
+    <p id="welcome"></p>
+    <a href="dashboard.html">Home</a>
+    <a href="add.html">Add Medicine</a>
+    <a href="view.html">View Reminders</a>
+    <a href="history.html">View History</a>
+</div>
+
+<div class="main">
+    <div class="big-btn" onclick="go('add.html')">💊 Add Medicine</div>
+    <div class="big-btn" onclick="go('view.html')">📋 View Reminders</div>
+    <div class="big-btn" onclick="go('history.html')">📜 View History</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

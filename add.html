@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Medicine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>Add Medicine</h2>
+
+    <input type="text" id="med" placeholder="Medicine Name">
+    <input type="text" id="dose" placeholder="Dosage">
+
+    <input type="number" id="hour" placeholder="Hour">
+    <input type="number" id="minute" placeholder="Minute">
+
+    <select id="period">
+        <option>AM</option>
+        <option>PM</option>
+    </select>
+
+    <button onclick="addMedicine()">Add</button>
+
+    <button onclick="location.reload()">Add More</button>
+
+    <button onclick="go('dashboard.html')">Back to Home</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
